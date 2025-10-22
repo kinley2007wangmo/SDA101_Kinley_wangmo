@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kinley’s Fashion Studio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-purple-50 text-gray-800 flex flex-col min-h-screen">
+
+  <!--  Navigation Bar -->
+  <header class="bg-gradient-to-r from-purple-700 to-indigo-600 text-white shadow-lg">
+    <nav class="container mx-auto flex flex-wrap justify-between items-center p-4">
+      <h1 class="text-2xl font-bold tracking-wide">Kinley’s Fashion Studio</h1>
+      <ul class="flex flex-wrap gap-4 text-sm md:text-base">
+        <li><a href="#" class="hover:text-purple-300 transition duration-300">Home</a></li>
+        <li><a href="#" class="hover:text-purple-300 transition duration-300">Collections</a></li>
+        <li><a href="#" class="hover:text-purple-300 transition duration-300">About</a></li>
+        <li><a href="#" class="hover:text-purple-300 transition duration-300">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--  Main Content -->
+  <main class="container mx-auto flex-grow p-6">
+
+    <!-- Section 1: Micro Interaction -->
+    <section class="text-center my-8">
+      <h2 class="text-3xl font-semibold mb-4 text-purple-800">Welcome to Kinley’s Fashion Studio</h2>
+      <p class="mb-6 text-gray-600">Where creativity meets confidence — explore designs, trends, and style inspirations</p>
+      <button class="bg-purple-600 text-white px-8 py-3 rounded-full shadow-md transform transition duration-300 hover:scale-110 hover:bg-purple-800">
+        Get in Touch
+      </button>
+    </section>
+
+    <!-- Section 2: Fashion Job Listings -->
+    <section class="my-10">
+      <h3 class="text-2xl font-semibold mb-4 text-purple-700">Fashion Job Openings</h3>
+      <div class="overflow-x-auto">
+        <table class="min-w-full bg-white border border-purple-200 rounded-lg shadow-md">
+          <thead class="bg-purple-100">
+            <tr class="text-left">
+              <th class="py-3 px-4">Job Title</th>
+              <th class="py-3 px-4">Company</th>
+              <th class="py-3 px-4">Location</th>
+              <th class="py-3 px-4">Application Deadline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="hover:bg-purple-50 transition">
+              <td class="py-3 px-4">Fashion Designer</td>
+              <td class="py-3 px-4">Koru Couture</td>
+              <td class="py-3 px-4">Thimphu</td>
+              <td class="py-3 px-4">Oct 30, 2025</td>
+            </tr>
+            <tr class="hover:bg-purple-50 transition">
+              <td class="py-3 px-4">Textile Artist</td>
+              <td class="py-3 px-4">Thread & Bloom</td>
+              <td class="py-3 px-4">Paro</td>
+              <td class="py-3 px-4">Nov 15, 2025</td>
+            </tr>
+            <tr class="hover:bg-purple-50 transition">
+              <td class="py-3 px-4">Fashion Stylist</td>
+              <td class="py-3 px-4">Velvet Vogue</td>
+              <td class="py-3 px-4">Punakha</td>
+              <td class="py-3 px-4">Dec 5, 2025</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Section 3: Fashion Gallery -->
+    <section class="my-10">
+      <h3 class="text-2xl font-semibold mb-4 text-purple-700">Design Gallery</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+        <img src="image_1.JPG" alt="Fashion 1" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
+        <img src="image_2.JPG" alt="Fashion 2" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
+        <img src="image_3.JPG" alt="Fashion 3" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
+        <img src="image_4.JPG" alt="Fashion 4" class="rounded-lg shadow-md hover:scale-105 transition duration-300">
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-purple-700 to-indigo-600 text-white text-center p-4 mt-10">
+    © 2025 Kinley’s Fashion Studio | Designed with using TailwindCSS
+  </footer>
+</body>
+</html>
